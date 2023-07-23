@@ -1,13 +1,84 @@
-body {
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Tangerine:wght@700&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+  --header: #C35DD6;
+  --color_white: #ffffff;
+  --gray: #333;
+  /* --background_color: #000000;
+  --buttonsec: #03dac6; */
+}
+body {
+  background-color: #f4f4f4;
+}
+
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 12px;
+  background-color: var(--header);
+  color: var(--color_white);
+  width: 100%;
+  height: 70px;
+  line-height: 45px;
+  z-index: 999;
+  position: sticky;
+  top: 0;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.flex-container > .container{
+  margin: 10px auto;
+  width: 45%;
+  background-color: var(--color_white);
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 5PX;
+}
+.flex-container .container .inner-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  font-weight: 700;
+  color: var(--gray);
+}
+.review{
+  margin: 10px;
+}
+.review .review-space{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.review .review-names, .review-num{
+  font-size: 14px;
+  padding-left: 14px;
+  color: var(--gray);
+  font-weight: 10;
+}
+.review-icon{
+  margin-top: 8px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.card{
+  background-color: var(--color_white);
+  width: 95%;
+  height: 50px;
+  margin: 15px auto;
+  border-radius: 50px;
+  padding: 5px 8px;
 }
