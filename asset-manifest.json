@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NetworkCode/static/css/main.0a01ee6b.css",
+    "main.js": "/NetworkCode/static/js/main.24902357.js",
+    "index.html": "/NetworkCode/index.html",
+    "main.0a01ee6b.css.map": "/NetworkCode/static/css/main.0a01ee6b.css.map",
+    "main.24902357.js.map": "/NetworkCode/static/js/main.24902357.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a01ee6b.css",
+    "static/js/main.24902357.js"
+  ]
+}
