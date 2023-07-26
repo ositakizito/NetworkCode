@@ -4,34 +4,34 @@ export default function BoxContent(){
     return(
        
         <div className="flex-container">
-            <button className="container">
+            <div className="container">
                <Link to="/reviewMTN" style={{textDecoration: 'none'}}>
                <div className="inner-box">
                     <>MTN</>
                 </div>
                </Link>
-            </button>
-            <button className="container">
+            </div>
+            <div className="container">
             <Link to="/reviewAirtel" style={{textDecoration: 'none'}}>
                <div className="inner-box">
                     <>AIRTEL</>
                 </div>
                </Link>
-            </button>
-            <button className="container">
+            </div>
+            <div className="container">
             <Link to="/reviewMobile" style={{textDecoration: 'none'}}>
                <div className="inner-box">
                     <>9 MOBILE</>
                 </div>
                </Link>
-            </button>
-            <button className="container">
+            </div>
+            <div className="container">
             <Link to="/reviewGlo" style={{textDecoration: 'none'}}>
                <div className="inner-box">
                     <>GLO</>
                 </div>
                </Link>
-            </button>
+            </div>
              
         </div>
     );
