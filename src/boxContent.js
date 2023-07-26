@@ -4,7 +4,7 @@ export default function BoxContent(){
     return(
        
         <div className="flex-container">
-                       <button className="container">
+            <button className="container">
                <Link to="/reviewMTN" style={{textDecoration: 'none'}}>
                <div className="inner-box">
                     <>MTN</>
